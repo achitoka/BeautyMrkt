@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #F2E8E9;
+  }
+  
+.grid-container > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+.title {
+    color: #4C385B;
+    font-family: "Caveat Brush";
+    font-size: 30px;
+    letter-spacing: 0.5 px;
+    font-weight: 200;
+}
+
+#err{
+    background-color: #FFABC4;
+    border-radius: 5px;
+    color: #4C385B;
+    font-size: 15px;
+    border: transparent;
+    font-family: "Poppins";
+}
+
+.form-login{
+    margin: auto;
+    background-color: #6BA9BF;
+    font-family: "Poppins";
+    border-radius: 30px;
+    width: 480px;
+    height: 450px;
+    padding-top: 5px;
+}
+
+.form-login h2{
+    color: #FFF6EC;
+    font-size: 48px;
+}
+
+.Signup{
+    color: #FFF6EC;
+    margin: 30px 0;
+    font-size: 25px;
+    font-family: "Caveat Brush";
+}
+
+.Signup p a{
+    color: #4C385B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Signup a:hover{
+    text-decoration: underline;
+}
+
+.form-login .input-box1{
+    position: relative;
+    transform: translateX(8%);
+    background: transparent;
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.input-box1 input{
+    width: 100%;
+    height: 100%;
+    background: #FFF6EC;
+    border: transparent;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-box1  input::placeholder{
+    color: #6BA9BF;
+    font-size: 15px;
+}
+
+.input-box1 i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4C385B;
+    font-size: 25px;
+}
+
+.form-login .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: -5px 40px 30px;
+    color: #FFF6EC;
+    font-size: 15px;
+}
+
+.remember-forgot a{
+    color: #FFF6EC;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: #4C385B;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 15px 0;
+    color: #FFABC4;
+    font-size: 35px;
+    border: transparent;
+    font-family: "Caveat Brush";
+}
+
+.termofcondition {
+    color: #4C385B;
+    font-family: "Poppins";
+    margin-top:  70px;
+    font-size: 10px;
+}
+
+.form-regis{
+    margin: auto;
+    justify-content: center;
+    background-color: #6BA9BF;
+    font-family: "Poppins";
+    border-radius: 30px;
+    padding-top: 5px;
+    width: 480px;
+    height: 450px;
+}
+
+.form-regis img{
+    position: absolute;
+    left: 100px;
+    object-fit: cover;
+}
+
+.form-regis h2{
+    color: #FFF6EC;
+    font-size: 48px;
+}
+
+.form-regis .input-box{
+    position: relative;
+    background: transparent;
+    width: 380px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #FFF6EC;
+    border: transparent;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-box  input::placeholder{
+    color: #6BA9BF;
+    font-size: 15px;
+}
+
+.input-box  p{
+    display: flex;
+    justify-content: start;
+    color: #FFF6EC;
+    font-size: 12px;
+    transform: translateY(-10%);
+}
+
+.login{
+    font-family: "Caveat Brush";
+    color: #FFF6EC;
+    font-size: 25px;
+    transform: translateY(-20%);
+}
+
+.login p a{
+    color: #4C385B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}

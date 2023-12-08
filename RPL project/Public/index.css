@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #F2E8E9;
+}
+    
+.grid-container > div {
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4C385B;
+}
+
+.header h2{
+    color: #FFABC4;
+    font-family: "Caveat Brush";
+    letter-spacing: 0.5px;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.header ul li{
+    display: inline-block;
+    font-family: "Poppins";
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.header a{
+    color: #F2E8E9;
+    text-decoration: none;
+}
+
+.header a i{
+    font-size: 27px;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: transparent;
+    justify-content: center;
+    margin: 20px;
+}
+      
+.card {
+    background-color: #FFF6EC;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #4C385B;
+}
+
+.footer a{
+    background-color: transparent;
+    color: #F2E8E9;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0 15px 0 10px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.tag {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: #F2E8E9;
+    font-family: "Raleway";
+    font-size: 9px;
+}
+
+.cart{
+    background-color: #252b2d;
+    max-height: 500px;
+}
+
+.list{
+    background-color: #6BA9BF;
+    font-family: "Poppins";
+    border-radius: 5px;
+    width: 75%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+  
+.list .input-box{
+    position: relative;
+    transform: translateX(8%);
+    background: transparent;
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.list .checkout{
+    position: absolute;
+    background-color: #4C385B;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    bottom: 10%;
+    right: 15%;
+    color: #FFABC4;
+    font-family: "Caveat Brush";
+    font-size: 30px;
+}
